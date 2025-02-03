@@ -1,4 +1,5 @@
 import {Link}  from "react-router-dom";
+import "./Layouts.css";
 
 
 
@@ -12,6 +13,7 @@ export default function Layouts(){
       <Link to="/about">About</Link> | 
       <Link to="/education">Education</Link> | 
       <Link to="/projects">Projects</Link> | 
+      <Link to="/services">Services</Link> | 
       <Link to="/contact">Contact</Link> 
     </nav>
     <br /><hr />
