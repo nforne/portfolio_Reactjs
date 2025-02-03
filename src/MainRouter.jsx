@@ -6,6 +6,7 @@ import Education from "./components/Education/Education.jsx";
 import Layouts from "./components/Layouts/Layouts.jsx";
 import Projects from "./components/Projects/Projects.jsx";
 import Services from "./components/Services/Services.jsx";
+import Column from "./components/column/Column.jsx";
 
 
 
@@ -23,6 +24,7 @@ export default function MainRouter(){
           <Route exact path = "/education" element = {<Education/>}/>
           <Route exact path = "/contact" element = {<Contact/>}/>
           <Route exact path = "/services" element = {<Services/>}/>
+          <Route exact path = "/column" element = {<Column/>}/>
 
       </Routes>
       
