@@ -4,7 +4,7 @@
 
 #ed_txt_a pre, #ed_txt_b pre,
 #projs_txt pre, #ed_txt_c pre,
-#ed_txt_d pre {
+#ed_txt_d pre, #svs_txt pre {
   padding: 0;
   text-align: center;
   margin-bottom: 0;
@@ -25,8 +25,9 @@
 #ed_txt_a dl dt::before, 
 #ed_txt_b dl dt::before,
 #projs_txt dl dt::before,
-#ed_txt_d dl dt::before{
-    content: "🔆"; /* Unicode character for bullet point */
+#ed_txt_d dl dt::before,
+#svs_txt ul li::before{
+    content: "🔆 "; /* Unicode character for bullet point */
     position: relative;
     left: 0;
     top: 0;
@@ -42,7 +43,8 @@
 }
 
 #ed_txt_a hr, #ed_txt_b hr,
-#projs_txt hr, #ed_txt_d hr{
+#projs_txt hr, #ed_txt_d hr, 
+#svs_txt hr{
     border: none; /* Remove the default border */
     border-top: 2px dashed #000; /* Add a dashed top border */
     height: 0; /* Set height to 0 to avoid extra space */
