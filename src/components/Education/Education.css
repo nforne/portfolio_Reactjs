@@ -1,0 +1,78 @@
+#ed_img{
+  margin-left: 23.5%;
+}
+
+#ed_txt_a pre, #ed_txt_b pre,
+#projs_txt pre, #ed_txt_c pre,
+#ed_txt_d pre {
+  padding: 0;
+  text-align: center;
+  margin-bottom: 0;
+ }
+
+#ed_txt_a dl, #ed_txt_b dl{
+ margin: 0 3em;
+ text-align: center;
+ padding: 0 5em;
+}
+
+#ed_txt_a dl dt, #ed_txt_b dl dt,
+#projs_txt dl dt, #ed_txt_d dl dt {
+  font-weight: bold;
+  margin-top: 1.25em;
+}
+
+#ed_txt_a dl dt::before, 
+#ed_txt_b dl dt::before,
+#projs_txt dl dt::before,
+#ed_txt_d dl dt::before{
+    content: "🔆"; /* Unicode character for bullet point */
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 1.2em; /* Adjust the font size of the bullet */
+    line-height: 1.2; /* Adjust the line height to align the bullet with the text */
+}
+
+#ed_txt_a dl dd, #ed_txt_b dl dd,
+#projs_txt dl dd, #ed_txt_d dl dd{
+  /* margin-left: 2em; */
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+#ed_txt_a hr, #ed_txt_b hr,
+#projs_txt hr, #ed_txt_d hr{
+    border: none; /* Remove the default border */
+    border-top: 2px dashed #000; /* Add a dashed top border */
+    height: 0; /* Set height to 0 to avoid extra space */
+}
+
+#ed_txt_b dl, #ed_txt_c{
+  text-align: justify;
+}
+
+#ed_txt_c table, #ed_txt_a dl,
+#ed_txt_b dl, #ed_txt_d dl{
+  margin-top: 0;
+}
+
+#ed_txt_c table, #ed_txt_d dl{
+  margin: 2em;
+  margin-top: 0;
+}
+
+#ed_txt_c table tbody tr::before{
+  content: "🔆 ";
+}
+
+#ed_txt_c, #ed_txt_d{
+  font-size: 1.2em;
+}
+
+#ed_txt_c table tbody tr td a{
+  color: black;
+}
+
+
+ 

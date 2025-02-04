@@ -6,7 +6,7 @@ import right from "./right.png";
 export default function Home(){
   return(
  
-      <div id='home'>
+      <div className="home">
         <img src={nforne} alt="./nforne.jpg" />
         <hr />
         <div>

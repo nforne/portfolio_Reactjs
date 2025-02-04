@@ -1,4 +1,4 @@
-#home {
+.home {
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -10,7 +10,7 @@
 
 }
 
-#home img, #home div img{
+.home img, #home div img{
   width: 10em;
   height: 10em;  
   border-radius: 5px;
@@ -21,7 +21,7 @@
 
 }
 
-#home > div{
+.home > div{
  
   border-radius: 5px;
   border: 2px solid aqua;
@@ -34,14 +34,14 @@
   justify-content: space-between;
 }
 
-#home div pre{
+.home div pre{
   text-align: left;
   padding: 15px;
   color: black;
   font-size: 1.5em; 
 }
 
-#home div div{
+.home div div{
   border: none;
   text-align: right;
   width: inherit;
@@ -55,7 +55,11 @@
   margin: 2.5px;
 }
 
-#home div div img{
+.home div div img{
   width: 4em;
   height: 4em;
+}
+
+.home > div {
+  margin: 0.25em;
 }

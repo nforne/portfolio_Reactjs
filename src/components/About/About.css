@@ -2,7 +2,9 @@
   margin-left: 12%;
 }
 
-#abt_txt{
+#abt_txt, #ed_txt_a, 
+#ed_txt_b, #projs_txt,
+#ed_txt_c, #ed_txt_d{
   display: flex;
   flex-direction: column;
   color: black;
