@@ -1,3 +1,11 @@
+/*
+==========================
+FileName: Contact.jsx
+Student : Martine Nforne
+ID : 301485889
+Date : February 2, 2024
+==========================
+*/
 import React, { useState } from 'react';
 import {Link}  from "react-router-dom";
 import nforne from "../Home/nforne.jpg";
@@ -85,7 +93,7 @@ DEVOPS | AGILE TRAINED | ANALYTICAL`}
                     required
                   ></textarea>
                 </div>
-                <button type="submit">Submit</button>
+                <Link to="/"><button type="submit">Submit</button></Link>
               </form>
                           
             </div>

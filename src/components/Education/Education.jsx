@@ -1,3 +1,11 @@
+/*
+==========================
+FileName: Education.jsx
+Student : Martine Nforne
+ID : 301485889
+Date : February 2, 2024
+==========================
+*/
 import {Link}  from "react-router-dom";
 import nforne from "../Home/nforne.jpg";
 import right from "../Home/right.png";

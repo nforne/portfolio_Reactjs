@@ -1,3 +1,11 @@
+/*
+==========================
+FileName: Layout.jsx
+Student : Martine Nforne
+ID : 301485889
+Date : February 2, 2024
+==========================
+*/
 import {Link}  from "react-router-dom";
 import './Layouts.css';
 import q2logo from "../../assets/q2Logo.png";

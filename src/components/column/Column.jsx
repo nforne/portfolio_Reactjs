@@ -1,3 +1,11 @@
+/*
+==========================
+FileName: Column.jsx
+Student : Martine Nforne
+ID : 301485889
+Date : February 2, 2024
+==========================
+*/
 import "./Column.css";
 import About from "../About/About";
 import Education from "../Education/Education";
