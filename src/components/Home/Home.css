@@ -1,0 +1,42 @@
+#home {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: space-between;
+  font-family: monospace;
+  font-size: medium;
+  align-items:start;
+  margin-left: 21%;
+
+}
+
+#home img{
+  width: 10em;
+  height: 10em;  
+  border-radius: 5px;
+  border: 2px solid aqua;
+  align-self: flex-start;
+  position: relative;
+  /* margin-right: 19.25em; */
+
+}
+
+#home div{
+ 
+  border-radius: 5px;
+  border: 2px solid aqua;
+  width: 78%;
+  height: fit-content;
+  position: relative;
+  background-color: azure;
+ 
+
+}
+
+#home div pre{
+  text-align: left;
+  padding: 15px;
+  color: black;
+  font-size: large; 
+
+}

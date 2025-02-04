@@ -14,48 +14,73 @@
   width: 90%;
 }
 
+#headerbar div div{
+  width: 90%
+}
+
 #headerbar img{
   border-radius: 25em;
   border: 3px solid hsl(183, 100%, 50%);
-  width: 18em;
-  height: 18em;
+  width: 10em;
+  height: 10em;
   flex: 0 0 auto;
 }
 
 #headerbar div h1{
   
-  border: 2px solid hsl(0, 0%, 7%);
-  border-radius: 1.5em;  
+  border: 2px solid aqua;
+  border-radius: 5px;  
   color: aqua;
   background-color: black;
   width: inherit;
   align-self: center;
 }
 
-#headerbar div nav{
+#headerbar div div nav{
 
-  border: 10px solid hsl(0, 0%, 7%);
-  border-radius: 1.5em;  
+  border: 2px solid aqua;  
+  border-radius: 5px;  
   color: white;
   background-color: black;
   align-items: center;
   justify-content: space-around;
-  width: inherit;
   align-self:center;
+  height: min-content;
+  width: inherit;
+  font-size: 0.75em;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
 
 }
+#headerbar div div nav div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;    
+}
 
-#headerbar div nav a{
+#headerbar div div nav div a, 
+#headerbar div div nav a{
   color: aqua; 
+  font-size: 1.5em;
 }
 #headerbar div nav a:hover{
   color: white;
 }
 
+#headerbar div div nav div hr{
+  width: 80%;
+}
 
-#headerbar div nav button{
-  border: 2px solid white; 
-  padding: 1.5p 2em;
-  font-size: medium;
+
+#headerbar div div nav div div button{
+  border: 2px solid greenyellow; 
+  padding: 0.75em;
+  font-size: small;
   width: inherit;
+  margin: 5px;
+  background-color: hsl(0, 3%, 57%);
+  color: white;
+  border-radius: 5px;
+  align-self: flex-end;
 }

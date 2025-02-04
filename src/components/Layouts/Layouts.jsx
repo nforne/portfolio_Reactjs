@@ -11,18 +11,25 @@ export default function Layouts(){
       <img src={q2logo} alt="../../assets/q2Logo.png" />
 
       <div>
-        <h1>Portfolio</h1>      
-        <nav>
-            <Link to="/">Home</Link> 
-          | <Link to="/about">About</Link>   
-          | <Link to="/education">Education</Link>    
-          | <Link to="/projects">Projects</Link>    
-          | <Link to="/services">Services</Link>   
-          | <Link to="/contact">Contact</Link> 
-          <hr />
-          <Link to="/column"><button>SWITCH VIEW [ SLIDE {"<"}=={">"} COLUMN ]</button></Link>          
-          <hr />
-        </nav>
+        <div>
+          <h1> Portfolio : Martin Nforne </h1> 
+
+          <nav>            
+            <div>
+              <div><Link to="/">Home</Link> </div>
+              <div>|   <Link to="/about">About Me</Link></div>
+              <div>|   <Link to="/education">Education</Link>   </div>
+              <div>|   <Link to="/projects">Projects</Link> </div>
+              <div>|   <Link to="/services">Services</Link>   </div>
+              <div>|   <Link to="/contact">Contact Me</Link> </div>  
+              <div>|   <Link to="/column"><button>SWITCH</button></Link> </div>                      
+            </div>
+                
+            <hr />
+          </nav>
+
+        </div>     
+        
 
       </div>
 
