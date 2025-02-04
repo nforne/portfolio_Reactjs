@@ -1,0 +1,32 @@
+#abt_img{
+  margin-left: 12%;
+}
+
+#abt_txt{
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-size: 1.4em;
+  text-align: justify;
+  flex-wrap: wrap;
+  padding-bottom: 2em;
+  padding-top: 1em;
+}
+
+#abt_txt p{
+  margin: 0.75em 1.5em;
+  flex-wrap: wrap;
+  text-align: justify;
+  position: relative;
+  padding-left: 2em; /* Adjust the padding to create space for the bullet */
+  text-indent: 0; /* Adjust the text indent to align the text with the bullet */
+}
+
+#abt_txt p::before{
+    content: "🔆"; /* Unicode character for bullet point */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2em; /* Adjust the font size of the bullet */
+    line-height: 1.2; /* Adjust the line height to align the bullet with the text */
+}

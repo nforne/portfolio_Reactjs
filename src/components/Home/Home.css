@@ -10,7 +10,7 @@
 
 }
 
-#home img{
+#home img, #home div img{
   width: 10em;
   height: 10em;  
   border-radius: 5px;
@@ -21,7 +21,7 @@
 
 }
 
-#home div{
+#home > div{
  
   border-radius: 5px;
   border: 2px solid aqua;
@@ -29,14 +29,33 @@
   height: fit-content;
   position: relative;
   background-color: azure;
- 
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #home div pre{
   text-align: left;
   padding: 15px;
   color: black;
-  font-size: large; 
+  font-size: 1.5em; 
+}
 
+#home div div{
+  border: none;
+  text-align: right;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  height: 5em;
+  color: black;
+  font-size: 1.2em;
+  margin: 2.5px;
+}
+
+#home div div img{
+  width: 4em;
+  height: 4em;
 }
