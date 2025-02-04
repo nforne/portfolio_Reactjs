@@ -25,8 +25,8 @@ export default function Layouts(){
               <div>|   <Link to="/column"><button>SWITCH</button></Link> </div>                      
             </div>
                 
-            <hr />
           </nav>
+            <hr />
 
         </div>     
         
