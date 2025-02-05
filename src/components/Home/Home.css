@@ -26,12 +26,6 @@ Date : February 2, 2024
   border: 2px solid aqua;
   align-self: flex-start;
   position: relative;
-  /* margin-right: 19.25em; */
-
-}
-
-.home > img{
-  margin-right: 15em;
 }
 
 .home > div{
@@ -82,4 +76,8 @@ Date : February 2, 2024
 
 .home > div {
   margin: 0.25em;
+}
+
+#headerbar > img, .home > img {
+  margin-right: 50em;
 }

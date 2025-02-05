@@ -22,7 +22,7 @@ export default function Home(){
         <div>
         
           <pre>
-          <a href="https://cfg-j.s3.us-east-1.amazonaws.com/Martin+Nforne+_2025_Rz.pdf">Resume .......📝</a>
+          <a href="https://cfg-j.s3.us-east-1.amazonaws.com/Martin+Nforne+_2025_Rz.pdf">🔆Resume...📝</a>
             {
 `<script>
                      🌼 WELCOME TO MY PORTFOLIO ...!🤗
