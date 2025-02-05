@@ -8,8 +8,8 @@ Date : February 2, 2024
 */
 import React, { useState } from 'react';
 import {Link}  from "react-router-dom";
-import nforne from "../Home/nforne.jpg";
-import right from "../Home/right.png";
+import nforne from "../../assets/nforne.jpg";
+import right from "../../assets/right.png";
 import './Contact.css';
 
 export default function Contact() {

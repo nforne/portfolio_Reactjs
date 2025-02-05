@@ -9,8 +9,8 @@ Date : February 2, 2024
 
 import {Link}  from "react-router-dom";
 import './Home.css';
-import nforne from "./nforne.jpg";
-import right from "./right.png";
+import nforne from "../../assets/nforne.jpg";
+import right from "../../assets/right.png";
  
 export default function Home(){
   return(

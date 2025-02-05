@@ -12,6 +12,7 @@ import q2logo from "../../assets/q2Logo.png";
 
 
 
+
 export default function Layouts(){
   return(
     <>
