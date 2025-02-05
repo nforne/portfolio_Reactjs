@@ -17,10 +17,12 @@ export default function Home(){
  
       <div className="home">
         <img src={nforne} alt="./nforne.jpg" />
+
         <hr />
         <div>
         
           <pre>
+          <a href="https://cfg-j.s3.us-east-1.amazonaws.com/Martin+Nforne+_2025_Rz.pdf">Resume .......📝</a>
             {
 `<script>
                      🌼 WELCOME TO MY PORTFOLIO ...!🤗
@@ -46,6 +48,7 @@ export default function Home(){
 
 </script>`
             }
+            
         </pre>
         <div><Link to="/about"><img src={right} id='abt_rt' alt="../Home/right.png" /></Link><p>About me?🧐</p></div>
         </div>

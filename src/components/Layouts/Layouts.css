@@ -11,6 +11,7 @@ Date : February 2, 2024
     flex-direction: row;
     position: sticky;
     font-family: monospace, 'Times New Roman', Times, serif;
+    z-index: 100;
 }
 
 #headerbar div{
@@ -23,7 +24,8 @@ Date : February 2, 2024
 }
 
 #headerbar div div{
-  width: 90%
+  width: 85%;
+  
 }
 
 #headerbar img{
@@ -32,6 +34,7 @@ Date : February 2, 2024
   width: 10em;
   height: 10em;
   flex: 0 0 auto;
+  position: fixed;
 }
 
 #headerbar div h1{

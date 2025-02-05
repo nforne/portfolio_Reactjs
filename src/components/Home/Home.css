@@ -15,7 +15,7 @@ Date : February 2, 2024
   font-family: monospace;
   font-size: medium;
   align-items:start;
-  margin-left: 21%;
+  margin-left: 14%;
 
 }
 
@@ -28,6 +28,10 @@ Date : February 2, 2024
   position: relative;
   /* margin-right: 19.25em; */
 
+}
+
+.home > img{
+  margin-right: 15em;
 }
 
 .home > div{
@@ -44,10 +48,17 @@ Date : February 2, 2024
 }
 
 .home div pre{
+  display: flex;
+  flex-direction: column;
   text-align: left;
   padding: 15px;
   color: black;
   font-size: 1.5em; 
+}
+
+.home div pre a{
+  color: black;
+  font-size: 1.5em;
 }
 
 .home div div{
