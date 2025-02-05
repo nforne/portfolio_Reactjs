@@ -6,7 +6,7 @@ ID : 301485889
 Date : February 2, 2024
 ==========================
 */
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {Link}  from "react-router-dom";
 import nforne from "../../assets/nforne.jpg";
 import right from "../../assets/right.png";
