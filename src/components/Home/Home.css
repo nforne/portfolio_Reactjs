@@ -47,7 +47,17 @@ Date : February 2, 2024
   text-align: left;
   padding: 15px;
   color: black;
-  font-size: 1.5em; 
+  font-size: 1.5em;
+  
+  /* text-shadow: 
+        0 0 5px rgba(255, 255, 255, 0.975),
+        0 0 10px rgba(255, 255, 255, 0.5),
+        0 0 20px rgba(31, 32, 32, 0.5),
+        0 0 40px rgba(11, 11, 11, 0.21),
+        0 0 80px rgba(8, 8, 8, 0.5);
+    background: -webkit-linear-gradient(#add8e6, #00bfff, #1e90ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 .home div pre a{

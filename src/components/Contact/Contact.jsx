@@ -44,7 +44,7 @@ export default function Contact() {
               {`JUNIOR SOFTWARE DEVELOPER
 DEVOPS | AGILE TRAINED | ANALYTICAL`}              
               </pre>            
-            <div><Link to="/column"><img src={right} id='abt_rt' alt="../Home/right.png" /></Link><p>Switch ? 🧐</p></div>
+            <div><Link to="/column"><img src={right} id='abt_rt' alt="../Home/right.png" /></Link><p>Switch? 🧐</p></div>
             </div>
             <div id="cf_txt">
               <pre>{`CONTACT ME ... `} <i>Leave me a message!🤗</i></pre>
